@@ -1,0 +1,54 @@
+#container {
+    background-color: #747d8c;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Tahoma;
+}
+
+h1 {
+    color: #fff;
+}
+
+#noButton {
+    border: 3px solid #ff4757;
+    color: #ff4757;
+    width: 100px;
+    height: 40px;
+    transition: 300ms;
+}
+
+#yesButton {
+    border: 3px solid #2ed573;
+    color: #2ed573;
+    width: 100px;
+    height: 40px;
+    transition: 300ms;
+}
+
+#yesButton:hover{
+    background-color: #2ed573;
+    color: white;
+    border-radius: 15px;
+}
+
+#noButton:hover{
+    background-color: #ff4757;
+    color: white;
+    border-radius: 15px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
